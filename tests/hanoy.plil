@@ -1,0 +1,17 @@
+
+HANOY:	PROC ( N, SRC, DST, MID );
+		DCL (N, SRC, DST, MID) FIXED;
+		IF N > 0 THEN DO;
+			CALL HANOY(N - 1, SRC, MID, DST);
+			CALL PRINT_I ( N );
+			CALL PRINT_I ( SRC );
+			CALL PRINT_I ( DST );
+			CALL PRINT_I ( MID );
+			CALL PRINT_I ( 0 );
+			CALL HANOY(N - 1, MID, DST, SRC);
+		END;
+END		HANOY;
+
+Main:	PROC;
+		CALL HANOY(3, 1, 3, 2);
+END		Main;

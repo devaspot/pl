@@ -1,0 +1,13 @@
+Main: PROC;
+    DCL ( P1, P2, P3 ) FIXED;
+    DCL P4 FIXED;
+
+   	P1 = 1Ah;
+   	P2 = 1001b;
+   	P3 = 150;
+
+   	CALL PRINT_I(P1);
+   	CALL PRINT_I(P2);
+   	CALL PRINT_I(P3);
+
+END Main;

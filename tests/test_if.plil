@@ -1,0 +1,19 @@
+Max: PROC ( X, Y ) RETURNS (FIXED);
+	DCL (X, Y, M) FIXED;
+
+	IF X > Y THEN
+		M = X;
+	ELSE
+		M = Y;
+
+	RETURN M;
+END Max;
+
+Main: PROC;
+	DCL ( A, B ) FIXED;
+	
+	CALL PRINT_I( Max(5, 7) );
+	CALL PRINT_I( Max(5, 3) );
+
+END Main;
+

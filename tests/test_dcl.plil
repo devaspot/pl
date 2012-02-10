@@ -1,0 +1,10 @@
+Main: PROC;
+
+	DCL (A, B) FIXED;
+
+	A, B = 3;
+
+	CALL PRINT_I(A);
+	CALL PRINT_I(B);
+
+END Main;

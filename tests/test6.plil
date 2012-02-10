@@ -1,0 +1,8 @@
+Main: PROC;
+	DCL F FLOAT;
+	DCL C COMPLEX;
+	DCL D FIXED;
+
+	D = (2 < 1)*F;
+
+END Main;

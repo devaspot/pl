@@ -1,0 +1,11 @@
+Main: PROC;
+	DCL ( A, B ) FIXED;
+
+	A = 0;
+	DO WHILE A < 10;		
+		A = A + 1;
+		CALL PRINT_I(A);
+	END;
+
+END Main;
+

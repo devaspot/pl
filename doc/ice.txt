@@ -1,0 +1,10 @@
+
+ICE: unhandled type 
+ICE: load instruction with no variable ptr
+ICE: instruction load of unknown class ( classid+)
+ICE: store instruction with no variable ptr
+ICE: instruction load of unknown class ( classid+)
+ICE: no previous extern for
+ICE: instruction opcode not found in hash
+ICE: instruction branch opcode not found in hash
+ICE: could not find opcode

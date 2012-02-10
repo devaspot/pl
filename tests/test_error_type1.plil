@@ -1,0 +1,10 @@
+Main: PROC;
+    DCL ( P1, P2, P3 ) FIXED;
+	DCL F FLOAT;
+	DCL C COMPLEX;
+
+   	P1, P2, P3 = -2 * 4;
+
+	P1 = F + C;
+
+END Main;

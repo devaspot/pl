@@ -1,0 +1,10 @@
+Main: PROC;
+
+    DCL B FIXED;
+	B = 2H;
+	B = 1BH;
+	B = 1B;
+	B = 7O;
+
+END Main;
+

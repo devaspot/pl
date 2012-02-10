@@ -1,0 +1,11 @@
+MAIN1: PROC ( X, Y, Z );
+	DCL ( X, Y, Z ) FIXED;
+    DCL A1 FIXED;
+    DCL A2 FIXED;
+	A2 = -3;
+	Z = A2 + 5*X - Y;
+    IF A1 >= Z THEN A1 = Z;
+END MAIN1;
+
+Main: PROC;
+END Main;

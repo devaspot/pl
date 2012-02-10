@@ -1,0 +1,14 @@
+SUM: PROC ( X1, Y1 );
+	DCL ( X1, Y1 ) FIXED;
+	DCL R FIXED;
+	R = X1 + Y1;
+END SUM;
+
+Main: PROC;
+	DCL F FLOAT;
+	DCL C COMPLEX;
+	DCL D FIXED;
+
+	D = SUM(1, 2);
+
+END Main;

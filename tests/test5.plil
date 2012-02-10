@@ -1,0 +1,18 @@
+SUM: PROC ( X1, Y1 );
+	DCL ( X1, Y1 ) FIXED;
+	DCL R FIXED;
+	R = X1 + Y1;
+END SUM;
+
+Main: PROC;
+    DCL ( P1, P2, P3 ) FIXED;
+	DCL F FLOAT;
+	DCL C COMPLEX;
+	DCL D FIXED;
+
+   	P1, P2, P3 = -2 * 4;
+
+	P1 = F + C;
+
+	CALL SUM(P1, P2);
+END Main;

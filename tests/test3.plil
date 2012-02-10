@@ -1,0 +1,14 @@
+Main: PROC;
+	DCL ( Y, A, B ) FIXED;
+
+ 			DO WHILE 4 > 6;		
+				Y = 1;
+			END;
+
+ZZZ:		A = 33;
+			A, B, Y = 7+4-5;
+			B = 2H;
+
+			GOTO ZZZ;
+END Main;
+

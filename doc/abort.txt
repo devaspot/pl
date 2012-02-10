@@ -1,0 +1,67 @@
+
+PL0401: unhandled type
+PL0402: load instruction with no variable ptr
+PL0403: instruction load of unknown class ( classid )
+PL0404: store instruction with no variable ptr
+PL0405: instruction load of unknown class ( classid )
+PL0406: could not find type for local
+PL0407: unhandled field def type
+
+PL0301: inhandled instruction type
+PL0302: Unhandled instruction type
+PL0201: invalid octal constant
+PL0202: invalid decimal constant
+PL0203: invalid binary constant
+PL0204: invalid decimal constant
+
+PL0101: invalid typecast (float to int)
+PL0102: invalid typecast (long int to short int)
+PL0103: invalid typecast (long float to short float)
+PL0104: ')' expected.
+PL0104: Using void function where expecting a value
+PL0105: undeclared variable
+PL0106: ')' expected
+PL0107: invalid variable declaration
+PL0108: ',' or ')' expected
+PL0109: ident expected
+PL0107: invalid variable declaration
+PL0110: ')' expected
+PL0111: invalid label declaration
+PL0112: ':' expected
+PL0107: invalid variable declaration
+PL0113: constant expected
+PL0114: ')' expected
+PL0107: invalid variable declaration
+PL0115: type specifier expected
+PL0116: PROC declaration needs LABEL
+PL0117: undeclared parameter
+PL0118: END expected
+PL0119: unclosed PROC
+PL0120: invalid procedure declaration
+PL0121: '=' expected
+PL0122: undeclared variable
+PL0123: TO expected
+PL0124: END expected
+PL0125: TO expected
+PL0126: undefined label
+PL0127: GOTO without direction
+PL0128: illegal RETURN to nowhere
+PL0129: ';' expected
+PL0130: THEN expected
+PL0131: ident after CALL expected
+PL0132: invalid procedure call: undefined procedure
+PL0133: invalid procedure call: not a procedure
+PL0134: '(' expected
+PL0135: ')' expected
+PL0136: invalid procedure call: wrong number of parametrs
+PL0137: undeclared variable
+PL0137: undeclared variable
+PL0138: ',' or '=' expected
+PL0139: ident expected
+PL0137: undeclared variable
+PL0140: not found expected token ':', ',' or '='
+PL0141: ';' expected
+PL0142: expected statement but end of file encountered
+PL0143: wild declaration found
+PL0144: unknown construction
+PL0145: wild symbol found
